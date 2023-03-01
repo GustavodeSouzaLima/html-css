@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes, ou simplesmente aumente ou diminui o tamanho do seu navegador</p>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/image-p.png" type="image/png"> <!-- A ordem é bastante importante. A Foto menor é sempre em cima
+        -->
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem flexivel">
+        <p><a href="Livro.zip" download="Livro.zip" type="application/zip">Baixar arquivo</a></p>
+    </picture>
+</body>
+</html>

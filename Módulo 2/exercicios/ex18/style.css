@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+
+body{ 
+
+
+    background-color:#536B86;
+    text-align: left;
+    margin-left: 1.25px;
+    font-family: Ubuntu;
+}
+    h2{
+        color: #23466E;
+        
+    }
+
+    h1{
+        color: #3C77BA;
+
+    }
+    
+    p{
+        background-color:#13253B;
+        color: #7394BA;
+
+    }
+
+

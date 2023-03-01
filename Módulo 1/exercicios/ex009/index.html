@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQleyahkpTL3S48eScXf3XkoL2XGvEL775OHQ&usqp=CAU" type="image/x-icon">
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Voce pode acessar o meu <a href="https://www.youtube.com/watch?v=KA834M0ijn0" target="_blank" rel="external">repositório publico no GitHub<a ></p>
+        <p>Para colocar links externos assim, é só utilizar a tag <strong>a</strong> , que vem de ancora ( link )</p>
+        <p>e depois escrever href="url do site"</p>
+
+        <p><br>
+        Você também pode acessar diretamente meu <a href="https://wa.me/21995230109" target="_blank" rel="external">número no Whatsapp</a></p>
+        <p>Quando for utilizar um link externo no site, não se esqueça de usar o código <code>target="_blank" rel="external"</code> para que quando o link foi clicado não saia do seu site.</p>
+        <p>
+            Você também pode acessar <a href="https://www.youtube.com/channel/UCs5l1R8g39Pmnt1C9JPOxkg" target="_blank" rel="external">o meu canal no youtube<a >   <!-- HREF = REFERENCIA, QUAL LINK ?.-->
+
+
+
+
+        </p>
+        <h2>Usando links internos</h2>
+        <p>Está é a primeira página do site. Se você quiser pode acessar também a minha <a href="pag002.html" target="_self" rel="next">Segunda página<a ></p>
+
+
+            
+        
+
+            <p>Você também pode acessar á <a href="noticias/pag003.html" target="_self" rel="next">página de noticias</a></p>
+
+
+            <h1>Links Para Download</h1>
+            <ul>
+                <li><a href="estudos/LivroA.pdf" target="_blank" download="LivroA.pdf" type="application/pdf">Baixar Livro em PDF<a ></li>
+                <li><a href="estudos/Livro.zip" download="Livro.zip" type="application/zip">Baixar Livro compactado em ZIP<a ></li>
+            </ul>
+            <p>Você pode fazer um link de download, usando o código <code>&lt;a href="nome-do-arquivo" target="_blank" download="nome-do-arquivo.extensao"&lt;a&gt; type="application/zip" </code>
+            <br>(Tipo do arquivo). que no caso application/zip seria Aplicação zip. pode ser pdf também <br>
+        que ficaria application/pdf</p>
+        <h2>Consulta mais elaborada</h2>
+        <p>Você também pode consultar todos os tipos de arquivos compativeis, no site abaixo</p>
+        <p>
+            <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="external">Bem aqui<a > &larr;
+        </p>
+</body>
+</html>
+<!-- Sempre use o código target="_blank" rel="external, ou prev, next, para o mecanismo de busca do google entender de onde vem esse arquivo, mesmo de forma oculta "-->

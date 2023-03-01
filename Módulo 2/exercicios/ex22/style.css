@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+
+/*
+id em HTML =  # em css
+class em HTML =  . em css
+
+*/
+
+
+
+body{
+    background-color: #C9FFB8;
+    font-family: 'Tilt Neon', sans-serif;
+    
+}
+
+h1{
+    color: #32402E;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #68845F;
+    color: white
+
+}
+
+
+
+
+h2{
+    color: #99C28C;
+}
+
+p{
+    text-align: left;
+    text-indent: 0.1em;
+}
+.basico{
+
+    color: #99C28C;
+    font-weight: bold;
+}
+
+.intermediario{
+    color: #b6c28c;
+
+}
+
+.avancado{
+    color: #c28c8c;
+
+}
+
+.destaque{
+    background-color: rgba(196, 196, 98, 0.541);
+}
