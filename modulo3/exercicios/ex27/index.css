@@ -1,0 +1,61 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+    color:white;
+    
+}
+
+
+
+
+.container{
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 500px;
+    background-image: url('../ex22/imagens/wallpaper002.jpg');
+    background-position: center center;
+
+}
+
+.box{
+    position: absolute;
+    margin-left: -10px;
+    top: 25%;
+    left: 2%;
+    width: 250px;
+    height: 250px;
+    background-image: url('https://www.lojamaria.com.br/wp-content/uploads/2021/02/jiu-e1613139289896.jpg');
+    background-repeat: no-repeat;
+
+    border-radius: 15px;
+}
+
+.box2{
+    position: absolute;
+    margin-right: -10px;
+    top: 25%;
+    right: 2%;
+    width: 250px;
+    height: 250px;
+    background-image: url('https://blackbeltmag.com/media-library/muay-thai.png?id=29903923&width=1245&height=700&quality=85&coordinates=0%2C61%2C0%2C65');
+    background-repeat: no-repeat;
+    background-position: top center;
+    border-radius: 15px;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    font-size: 1.15em;
+}
+
+p{
+    font-size: 0.8em;
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+.container{
+    position: relative;
+    margin-top: 20vh;
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    
+}
+
+.box{
+    
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    
+}
