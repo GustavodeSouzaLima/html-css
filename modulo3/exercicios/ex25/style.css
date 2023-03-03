@@ -1,19 +1,32 @@
 @charset "UTF-8";
 
 body{
+    font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
+
+    /*
     background-color: black;
-    background-image: url('imagens/lua\ sangrenta\ entrada\ para\ sla\ oq\ é\ isso.jpg');
+    background-image: url('imagens/wallpaper002.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: repeat-y;
+    background-attachment: fixed; */
+    
+/* 	Sequência:	color > image > position > / > size > repeat > attachment */
 
+background: black url('imagens/wallpaper002.jpg' ) center center /cover no-repeat fixed;
 }
 
 main{
     background-color: white;
-    width: 400px;
+    max-width: 400px;
     border: solid 1px blue;
-    margin: auto;
+    margin: auto;   
+    margin-top: -10px;
+    padding: 10px;
     border-radius: 15px;
+    
+}
+h1{
+    margin-bottom: 10px;
 }
